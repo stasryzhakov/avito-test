@@ -1,0 +1,68 @@
+.filter-sort{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category, .price-filter {
+    margin-bottom: 20px;
+    min-height: 35px;
+    align-items: center;
+}
+
+.category h5, .price-filter h5, .sort h5{ 
+    margin-right: 15px;
+}
+
+.price-filter h5{
+    width: 18%;
+    margin-bottom: 0;
+}
+
+.price-filter input{
+    padding: 5px;
+    width: 30%;
+}
+
+.sort{
+    align-self: center;
+    justify-content: flex-end;
+    text-align: right;
+    margin-top: -40px;
+}
+
+@media (max-width: 1200px){
+
+    .filter-sort{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .price-filter{
+        flex-direction: column;
+    }
+
+    .price-filter h5{
+        align-self: start;
+        width: 50%;
+    }
+
+    .price-filter input{
+        width: 35%;
+    }
+
+    .sort {
+        text-align: right;
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 992px){
+    
+    .price-filter input{
+        width: 25%;
+    }
+
+    .sort button{
+        font-size: .9rem;
+    }
+}

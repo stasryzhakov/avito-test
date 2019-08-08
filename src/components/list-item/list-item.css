@@ -1,0 +1,35 @@
+.wrap{
+    display: flex;
+}
+
+.image{
+    display: flex;
+    position: relative;
+}
+
+.image p {
+    position: absolute;
+    padding: 3px 10px;
+    left: 10%;
+    top: 10%;
+    color: rgb(66, 65, 65);
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.price{
+    margin-top: 35px;
+}
+
+.fa-heart{
+    font-size: 25px;
+    color: cyan;
+}
+
+.red{
+    color: red;
+}
+
+.fa-heart:hover{
+    cursor: pointer;
+}
